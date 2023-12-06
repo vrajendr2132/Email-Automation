@@ -2,7 +2,6 @@
 
 __author__ = "Vineeth Rajendran Sreenivasan"
 __version__ = "1.0.0"
-__email__ = "vinu.rs24@gmail.com"
 __Created__ = "20/07/2022"
 
 import smtplib
@@ -21,7 +20,7 @@ msg['Cc'] = ", ".join(receivers2)
 
 
 message = """
-<body><p>Hello Redspam,</p>
+<body><p>Hello world,</p>
 
 <p><div>Hello World!!!!.</div></p>
 </p>Welcome to our Organization.</p></body>
